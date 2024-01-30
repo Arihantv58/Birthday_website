@@ -234,11 +234,11 @@ footer a:hover {
 }
 
 #prevButton {
-    left: 30%;
+    left: 0%;
 }
 
 #nextButton {
-    right: 30%;
+    right: 0%;
 }
 
 /* Add the following CSS styles for the video section */
