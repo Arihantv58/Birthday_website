@@ -1,0 +1,270 @@
+/* Global styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+nav {
+    /* background-color: #d767c3; */
+    padding: 20px;
+    text-align: center;
+    background: rgb(118 119 28 / 20%);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    color: #030202;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffd700; /* Change the color on hover */
+}
+
+
+
+/* Home */
+
+#home {
+    background-image: url('Images/2.jpg');
+    background-size: cover;
+    background-position: top;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home h1 {
+    font-size: 72px;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.tagline {
+    font-size: 32px;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f00;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #d60000;
+}
+
+.container1{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+/* Gallery */
+
+#gallery {
+    background-color: #fafafa;
+    padding: 50px 0;
+}
+
+#gallery h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    justify-items: center;
+}
+
+.gallery-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* About */
+
+#about {
+    background-color: #faffcb;
+    padding: 50px 0;
+}
+
+#about h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#about p {
+    font-size: 24px;
+    color: #777;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Gallery */
+
+#gallery {
+    background-color: #333;
+    padding: 50px 0;
+}
+
+#gallery h2 {
+    font-size: 36px;
+    color: wheat;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: 18px;
+    margin: 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+/* Add this to your existing CSS */
+
+.gallery-controls {
+    position: relative;
+    margin-top: 20px;
+}
+
+.control-button {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.52);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.4px);
+    -webkit-backdrop-filter: blur(12.4px);
+    border: 1px solid rgba(255, 255, 255, 0.74);
+}
+
+#prevButton {
+    left: 45%;
+}
+
+#nextButton {
+    right: 45%;
+}
+
+/* Add the following CSS styles for the video section */
+
+#video {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+#video h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.video-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 aspect ratio for responsive video */
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
